@@ -6,6 +6,9 @@ WIDTH = 360 # taille écran largeur hauteur
 HEIGHT = 480
 FPS = 30 # images par seconde
 
+# couleurs prédéfinies
+BLACK = (0, 0, 0)
+ROUGE = (255,0,0)
 
 # initialize pygame and create window
 pygame.init()
@@ -28,7 +31,7 @@ while running:
     # mise à jour des variables
 
     # dessin
-    screen.fill((0,0,0))
+    screen.fill(BLACK)
     # affichage
     pygame.display.flip()
 
