@@ -7,7 +7,7 @@ HEIGHT = 480
 FPS = 30 # images par seconde
 
 # couleurs prédéfinies
-BLACK = (0, 0, 0)
+JAUNE = (255, 255, 0)
 ROUGE = (255,0,0)
 
 # initialize pygame and create window
@@ -31,7 +31,7 @@ while running:
     # mise à jour des variables
 
     # dessin
-    screen.fill(BLACK)
+    screen.fill(JAUNE)
     # affichage
     pygame.display.flip()
 
