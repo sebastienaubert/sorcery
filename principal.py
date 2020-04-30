@@ -33,7 +33,7 @@ while running:
 
     # dessin
     screen.fill(BLACK)
-    screen.fill(JAUNE)
+    
     # affichage
     pygame.display.flip()
 
