@@ -10,6 +10,7 @@ FPS = 30 # images par seconde
 BLACK = (0,0,0)
 JAUNE = (255,255,0)
 ROUGE = (255,0,0)
+BLEU = (0,0,255)
 
 # initialize pygame and create window
 pygame.init()
