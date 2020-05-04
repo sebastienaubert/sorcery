@@ -9,6 +9,7 @@ FPS = 30 # images par seconde
 # couleurs prédéfinies
 BLACK = (0,0,0)
 ROUGE = (255,0,0)
+BLEU = (0,0,255)
 
 # initialize pygame and create window
 pygame.init()
@@ -38,6 +39,7 @@ while running:
 
     # dessin
     screen.fill(BLACK)
+    
     # affichage
     pygame.display.flip()
 
