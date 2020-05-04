@@ -2,13 +2,12 @@
 import pygame
 import random
 
-WIDTH = 360 # taille écran largeur hauteur
-HEIGHT = 480
+WIDTH = 500 # taille écran largeur hauteur
+HEIGHT = 550
 FPS = 30 # images par seconde
 
 # couleurs prédéfinies
 BLACK = (0,0,0)
-JAUNE = (255,255,0)
 ROUGE = (255,0,0)
 BLEU = (0,0,255)
 
@@ -18,6 +17,12 @@ pygame.mixer.init() # initialisation des sons
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Sorcery")
 clock = pygame.time.Clock()
+
+#Musique de fond
+celtic_song = pygame.mixer.Sound("celticogg.ogg")
+celtic_song.play(50)
+
+pygame.display.flip()
 
 # boucle de jeu
 running = True
