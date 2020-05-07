@@ -20,6 +20,10 @@ screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Sorcery")
 clock = pygame.time.Clock()
 
+#Musique de fond
+celtic_song = pygame.mixer.Sound("celticogg.ogg")
+celtic_song.play(50)
+
 # boucle de jeu
 running = True
 while running:
